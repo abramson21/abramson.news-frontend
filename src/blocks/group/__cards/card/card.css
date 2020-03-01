@@ -1,0 +1,14 @@
+@import url('./__image/card__image.css');
+@import url('./__data/card__data.css');
+@import url('./__header/card__header.css');
+@import url('./__paragraph/card__paragraph.css');
+@import url('./__source/card__source.css');
+@import url('./title-search/title-search.css');
+@import url('./_margin/cards_margin.css');
+
+.card {
+  height: 576px;
+  position: relative;
+  max-width: 400px;
+  border-radius: 16px;
+}

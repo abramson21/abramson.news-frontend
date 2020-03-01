@@ -1,0 +1,9 @@
+@import url('./_paragraph/search_paragraph.css');
+@import url('./_title/search_title.css');
+@import url('./_topic/search_topic.css');
+
+.search_body{
+  width: 608px;
+  padding: 80px;
+  margin: 0 auto 0px;
+}

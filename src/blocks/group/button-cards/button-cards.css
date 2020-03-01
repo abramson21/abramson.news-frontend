@@ -1,0 +1,9 @@
+@import url('./__text/button-cards__text.css');
+
+.button-cards {
+  margin: 60px auto 80px;
+  width: 288px;
+  background: #FFFFFF;
+  border-radius: 80px;
+  border: none;
+}

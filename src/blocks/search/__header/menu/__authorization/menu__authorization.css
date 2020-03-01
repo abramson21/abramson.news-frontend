@@ -1,0 +1,25 @@
+@import url('./_margin/menu__authorization_margin.css');
+
+.menu__authorization {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 19px;
+  margin-bottom: 13px;
+  width: 176px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.menu__authorization_black-margin {
+  margin-right: 104px;
+  margin-left: 32px;
+  color: #1A1B22;
+  border: 1px solid #1A1B22;
+}

@@ -1,0 +1,38 @@
+@import url('./saved/saved.css');
+
+.menu-signin__save {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  width: 250px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #B6BCBF;
+}
+
+.menu-signin__save_black {
+  color: #1A1B22;
+}
+
+.menu-signin__save_black-paragraph{
+  color: #1A1B22;
+  width: 712px;
+  margin-top: 30px;
+  margin-bottom: 56px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-weight {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1A1B22;
+}

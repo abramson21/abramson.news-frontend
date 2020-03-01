@@ -1,0 +1,21 @@
+@import url('./news/news.css');
+@import url('./menu/menu.css');
+@import url('./menu-signin/menu-signin.css');
+@import url('./list/list.css');
+
+.search__header {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.search__header-signin {
+  display: flex;
+  max-width: 1440px;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.search__header-signin_border {
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
