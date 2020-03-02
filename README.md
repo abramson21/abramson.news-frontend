@@ -1,2 +1,3 @@
-# 11_3sprint
-11_3sprint работа с вебпаком
+# abramson.news-frontend
+abramson.news-frontend
+Diplom yandex
