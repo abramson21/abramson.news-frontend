@@ -1,0 +1,6 @@
+@import url('./determinant/determinant.css');
+@import url('./chek__open/chek__open.css');
+
+.popup__form {
+  margin-top: 22px;
+}

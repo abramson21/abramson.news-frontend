@@ -1,0 +1,8 @@
+@import url('./__title-one/about__title-one.css');
+@import url('./__title-two/about__title-two.css');
+@import url('./_margin/about__title_margin.css');
+
+.about__paragraph{
+  display: flex;
+  flex-direction: column;
+}

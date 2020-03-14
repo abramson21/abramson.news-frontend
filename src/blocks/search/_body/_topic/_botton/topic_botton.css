@@ -1,0 +1,10 @@
+@import url('./__text/topic_botton__text.css');
+
+.topic_botton{
+  background: #2F71E5;
+  width: 168px;
+  border-radius: 100px;
+  padding: 0px;
+  border: none;
+  margin-left: 40px;
+}

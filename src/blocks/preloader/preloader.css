@@ -1,0 +1,7 @@
+@import url('./__loader/circle-preloader.css');
+@import url('./__news/preloader__news.css');
+
+.preloader {
+  max-width: 1440px;
+  width: 100%;
+}

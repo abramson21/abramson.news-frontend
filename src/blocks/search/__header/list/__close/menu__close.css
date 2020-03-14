@@ -1,0 +1,9 @@
+.menu__close {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    margin-top: 16px;
+    margin-right: 16px;
+    background-image: url('../images/back.png');
+}

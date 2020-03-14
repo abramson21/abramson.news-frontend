@@ -1,0 +1,14 @@
+@import url('./main-header/main-header.css');
+@import url('./link/link.css');
+
+.menu__main {
+  display: flex;
+  margin-right: 32px;
+  flex-direction: column;
+  width: 69px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}

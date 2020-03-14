@@ -1,0 +1,19 @@
+@import url('./_saved/buttomSave__icon_saved.css');
+
+.buttomSave__icon {
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.buttomDelete__icon{
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.buttomSave__icon:hover, .buttomDelete__icon:hover {
+  background-image: url('../../images/Rectangle2.png');
+}

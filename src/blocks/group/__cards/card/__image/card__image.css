@@ -1,0 +1,16 @@
+@import url('./buttomSave/buttomSave.css');
+@import url('./_park/card__image_park.css');
+@import url('./_color/card__image_color.css');
+@import url('./_taiga/card__image_taiga.css');
+@import url('./massageSave/massageSave.css');
+@import url('./_flower/card__image_flower.css');
+@import url('./_forest/card__image_forest.css');
+@import url('./_flower2/card__image_flower2.css');
+
+.card__image {
+  display: flex;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}

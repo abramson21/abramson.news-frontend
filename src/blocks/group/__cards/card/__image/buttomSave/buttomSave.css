@@ -1,0 +1,24 @@
+@import url('./__icon/buttomSave__icon.css');
+
+.buttomSave{
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 24px 24px 206px 336px;
+  padding: 11px 13px;
+  border: 0;
+  width: 40px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.buttomDelete {
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 24px 24px 206px 224px;
+  border: 0;
+  width: 40px;
+}
