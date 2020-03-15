@@ -1,2 +1,3 @@
 # abramson.news-frontend
-### Diplom yandex
+abramson.news-frontend
+Diplom yandex
