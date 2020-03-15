@@ -1,8 +1,12 @@
 @import url('./_whiteTeame/news_whiteTeame.css');
-@import url('./_whiteTeame-margin/news_whiteTeame-margin.css');
-@import url('./_blackTeame/news_blackMargin.css');
+@import url('./_blackTeame/news_blackTeame.css');
 
 .news {
-  max-width: 200px;
-  width: 100%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0 26px 104px;
+    width: 200px;
 }

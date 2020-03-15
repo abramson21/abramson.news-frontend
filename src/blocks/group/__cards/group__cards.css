@@ -1,19 +1,17 @@
 @import url('./card/card.css');
 
 .group__cards {
-  max-width: 1440px;;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 104px 0;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.group__cards_margin{
-  justify-content: start;
-  padding-top: 46px;
-  padding-left: 86px;
-  padding: 62px 90px 62px 90px;
-  background: #F5F6F7;
+.group__cards_margin {
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 62px 74px 86px 106px;
+}
+
+.cards_margin {
+    margin-right: 16px;
 }

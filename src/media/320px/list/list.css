@@ -1,0 +1,25 @@
+@import url('./search__header-signin/search__header-signin.css');
+
+@media only screen and (max-width: 320px) {
+
+    .list {
+        display: block;
+    }
+
+    .menu__authorization {
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 100px;
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 24px;
+        background: transparent;
+        border: 1px solid #FFFFFF;
+    }
+
+    .menu__authorization_black-margin {
+        padding: 15px 0 17px 106px;
+        color: #fff;
+    }
+}

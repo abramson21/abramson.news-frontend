@@ -1,9 +1,9 @@
-@import url('./__header/search__header.css');
-@import url('./_body/search_body.css');
 @import url('./_image/search_image.css');
-@import url('./_whiteTeame/search_whiteTeame.css');
+@import url('./__header/search__header.css');
+@import url('./__body/search__body.css');
+@import url('./_background/search_background.css');
+@import url('./list/list.css');
 
-.search{
-  width: 100%;
-  max-width: 1440px;
+.search {
+    max-width: 1440px;
 }

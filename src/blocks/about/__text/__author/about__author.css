@@ -1,9 +1,9 @@
 .about__author {
-  font-family: Roboto Slab;
-  margin: 131px 0 0 0;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 46px;
-  color: #1A1B22;
+    margin: 131px 0 0;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
 }

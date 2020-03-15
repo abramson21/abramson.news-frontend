@@ -1,10 +1,9 @@
 .group__result {
-  max-width: 712px;
-  margin: 80px 624px 64px 104px;
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 46px;
-  color: #1A1B22;
+    margin: 0 624px 64px 0;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
 }

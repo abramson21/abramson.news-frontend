@@ -1,8 +1,10 @@
 .button-cards__text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 24px;
-  color: #1A1B22;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #1A1B22;
 }

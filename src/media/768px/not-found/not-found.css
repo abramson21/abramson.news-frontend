@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+
+    .not-found {
+        width: 768px;
+    }
+
+    .not-found__image {
+        margin: 43px 330px 10px;
+    }
+
+    .not-found__header {
+        margin: 0 auto 16px;
+    }
+
+    .not-found__paragraph {
+        margin: 0 auto 80px;
+    }
+}

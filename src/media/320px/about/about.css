@@ -1,0 +1,33 @@
+@media only screen and (max-width: 320px) {
+    .about {
+        display: block;
+        width: 320px;
+    }
+
+    .about__text {
+    width: 320px;
+    margin-bottom: 80px;
+    }
+
+    .about__author {
+    width: 288px;
+    margin: 0 16px 16px;
+    }
+
+    .about__title_margin {
+    margin: 32px 0 0;
+    }
+    
+    .about__paragraph {
+        width: 288px;
+        margin: 0 16px;
+    }
+
+    .about__title-one {
+        margin-top: 0;
+    }
+    .about__image {
+    width: 272px;
+    margin: 32px 24px;
+    }
+}

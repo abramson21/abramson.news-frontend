@@ -7,9 +7,3 @@
   padding: 34px 36px 28px;
 
 }
-
-@media screen and (max-width: 540px) {
-  .popup__content {
-    width: calc(100% - 60px);
-  }
-}

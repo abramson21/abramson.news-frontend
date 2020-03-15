@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+    .about {
+        width: 768px;
+      }
+    
+    .about__image {
+        width: 232px;
+        margin: 61px 32px 61px 40px;
+    }
+
+    .about__paragraph {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        width: 424px;
+    }
+
+    .about__title-one {
+        margin-top: 16px;
+    }
+
+    .about__author {
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about__title_margin {
+        margin: 25px 0;
+    }
+}

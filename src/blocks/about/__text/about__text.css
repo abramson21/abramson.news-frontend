@@ -2,7 +2,5 @@
 @import url('./__paragraph/about__paragraph.css');
 
 .about__text {
-  width: 600px;
-  display: flex;
-  flex-direction: column;
-}
+    width: 600px;
+}   

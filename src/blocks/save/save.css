@@ -2,5 +2,6 @@
 @import url('./__header/save__header.css');
 
 .save {
-  margin: 0 624px 0 104px;
+  max-width: 1440px;
+  margin: 40px 624px 0 104px;
 }

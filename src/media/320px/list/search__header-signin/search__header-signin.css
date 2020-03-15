@@ -1,0 +1,16 @@
+@media only screen and (max-width: 320px) {
+    .search__header-signin {
+        margin-left: 130px;
+        box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+    }
+
+    .search__header-signin_border {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .menu__close_list {
+        margin-left: 147px;
+    }
+}

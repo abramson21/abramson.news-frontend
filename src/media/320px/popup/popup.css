@@ -1,0 +1,31 @@
+@media only screen and (max-width: 320px) {
+
+    .popup, .popup-registration {
+        width: 320px;
+        top: 56px;
+        align-items: normal;
+        height: 100%;
+    }
+
+    .popup__content {
+        width: 100%;
+        padding: 16px;
+        overflow-y: auto;
+    }
+
+    .button_registration {
+        margin: 0 30px 60px;
+    }
+
+    .popup-signup {
+        width: 320px;
+        top: 160px;
+        height: 25%;
+        align-items: normal;
+    } 
+    
+    .popup__close {
+        display: none;
+        overflow-y: hidden;
+    }
+}
