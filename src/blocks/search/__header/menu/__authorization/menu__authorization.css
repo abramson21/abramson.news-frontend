@@ -5,4 +5,5 @@
     display: flex;
     flex-direction: row;
     margin: 0 104px 0 755px;
+    display: none;
 }

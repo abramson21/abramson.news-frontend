@@ -1,2 +1,6 @@
 @import url('./768px/iPad-768.css');
 @import url('./320px/iPhone-320px.css');
+@import url('./1440-1280px/1280px.css');
+@import url('./1280-1024px/1024px.css');
+@import url('./768-540px/540px.css');
+@import url('./540-375px/375px.css');

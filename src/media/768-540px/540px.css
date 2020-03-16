@@ -1,0 +1,192 @@
+@media screen and (max-width: 767px) and (min-width: 540px) {
+    .search {
+        width: 100%;
+        min-width: 375px;
+        max-width: 768px;
+    }
+
+    .menu { 
+        margin: 0 0 0 auto;
+    }
+
+    .menu__save {
+        margin: 0 40px 0 100px;
+    }
+
+    .menu__authorization {
+        margin: 0 40px 0 auto;
+    }
+
+    .search__topic {
+        max-width: 452px;
+        margin: 0;
+    }
+
+    .search__header {
+        width: 100%;
+    }
+
+    .search__body {
+       padding: 40px 100px;
+    }
+
+    .news {
+        margin-left: 50px;
+    }
+
+    .about {
+        width: 100%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    .about__image {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .about__author {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .about__paragraph {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .about__text {
+       margin: 0 auto;
+       width: 100%;
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .footer__column {
+    margin: 21px 104px 0px 16px;
+    flex-direction: column;
+    }
+
+    .footer__column-icone {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    }
+
+    .footer__column-icone_github {
+    top: 22px;
+    right: 66px;
+    }
+
+    .footer__column-icone_facebook {
+    top: 22px;
+    right: 18px
+    }
+
+    .footer__info {
+    width: 288px;
+    margin: 40px auto 20px;
+    }
+
+    .footer__column-text_header {
+    margin-bottom: 30px;
+    }
+
+    .group__cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .button-cards {
+        margin: 25px 120px;
+    }
+
+    .card {
+        width: 288px;
+        height: 530px;
+        margin: 0 auto 10px;
+    }
+
+    .button-cards {
+        width: 240px;
+        margin: 28px;
+    }
+
+    .buttomSave {
+        margin: 16px 16px 102px;
+        height: 50px;
+    }
+
+    .massageSave {
+        margin: 16px 4px 102px;
+        height: 50px;
+    }
+
+    .card__header, .card__paragraph {
+        margin-left: 0;
+    }
+
+    .group {
+        padding: 0 10px;
+    }
+
+    .card__header, .card__paragraph {
+        width: 100%;
+    }
+
+    .menu__save {
+        margin: 0;
+    }
+
+    .news {
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .main-header {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .menu__main {
+        margin-right: 10px;
+    }
+
+    .saved {
+        font-size: 14px;
+        line-height: 20px;
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .menu__signin {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .save {
+        width: 500px;
+    }
+
+    .save__paragraph {
+        width: 100%;
+    }
+
+    .menu-signin__save {
+        width: 100%;
+    }
+
+    .title-search {
+        margin: 8px 140px 102px 8px;
+    }
+}

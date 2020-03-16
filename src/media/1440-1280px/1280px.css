@@ -1,0 +1,78 @@
+@media screen and (max-width: 1439px) and (min-width: 1280px) {
+    .search {
+        width: 100%;
+        min-width: 768px;
+        max-width: 1439;
+    }
+
+    .search_image {
+        background-position: center;
+    }
+
+    .search__header {
+        width: 100%;
+    }
+    
+    .menu { 
+        margin: 0 104px 0 auto;
+    }
+
+    .menu__save {
+        margin: 0 40px 0 100px;
+
+    }
+    
+    .menu__authorization {
+        margin: 0 0 0 0;
+    }
+
+    .saved {
+        margin: 22px 16px 20px 0;
+        width: 160px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .search__topic {
+        width: 100%;
+    }
+
+    .topic__news {
+        margin: 21px auto 21px 24px;
+    }
+
+    .topic__botton {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .menu__authorization {
+        margin-left: 240px;
+    }
+
+    .menu__signin {
+        width: 160px;
+    }
+
+    .search {
+        margin: 0px;
+    }
+
+    .search__body {
+        margin: 0;
+    }
+
+    .not-found {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .not-found__header, .not-found__paragraph {
+        margin: 0 auto;
+    }
+
+    .group {
+        padding: 40px 10px;
+    }
+}
