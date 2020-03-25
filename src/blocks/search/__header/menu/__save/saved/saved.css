@@ -13,9 +13,12 @@
     color: #1A1B22;
     font-weight: 600;
     margin: 0;
+    margin-top: 25px;
     width: 178px;
 }
 
 .saved_black {
     color: #1A1B22;
+    margin: 0px;
+    text-decoration: none;
 }

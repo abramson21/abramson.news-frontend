@@ -51,4 +51,8 @@
   .menu__authorization {
     margin: 0 10% 0 65%;
   }
+
+  .news_blackTeame {
+    width: 120px;
+  }
 }

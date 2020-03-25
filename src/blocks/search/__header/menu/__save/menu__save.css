@@ -3,7 +3,7 @@
 .menu__save {
     display: flex;
     flex-direction: row;
-    margin: 0 104px 0 607px;
+    margin: 0 104px 0 579px;
 }
 
 .menu__save_blackTeame {
@@ -13,4 +13,9 @@
 
 .main-header_black {
     color: #1A1B22;
+    margin-top: 25px;
+}
+
+.main__save-menu {
+    margin: 25px 16px 0;
 }

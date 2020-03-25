@@ -43,4 +43,8 @@
     .menu__authorization {
       margin: 0 10% 0 65%;
     }
+
+    .menu__save_blackTeame {
+      margin-left: 15%;
+    }
 }
