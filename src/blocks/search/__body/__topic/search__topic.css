@@ -7,6 +7,5 @@
     justify-content: flex-start;
     background: #FFFFFF;
     box-sizing: border-box;
-    backdrop-filter: blur(8px);
     border-radius: 100px;
 }

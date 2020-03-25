@@ -33,3 +33,12 @@
   display: none;
   height: 100%;
 }
+
+.news_popup {
+  margin: 0;
+}
+
+.popup__block {
+  display: flex;
+  flex-direction: row;
+}

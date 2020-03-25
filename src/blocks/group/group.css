@@ -5,6 +5,10 @@
 .group {
     max-width: 1440px;
     margin: 0;
-    padding: 80px 104px;
+    padding: 80px 104px 80px;
     background: #F5F6F7;
+}
+
+.group_padding {
+   padding: 80px 72px 62px 104px;
 }

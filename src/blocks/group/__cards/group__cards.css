@@ -9,7 +9,6 @@
 .group__cards_margin {
     justify-content: start;
     flex-wrap: wrap;
-    padding: 62px 74px 86px 106px;
 }
 
 .cards_margin {

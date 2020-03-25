@@ -31,4 +31,10 @@
     color: #1A1B22;
     border: 1px solid #1A1B22;
     font-weight: 600;
+    
+}
+
+.menu__signin_black {
+    border: 1px solid #1A1B22;
+    color: #1A1B22;
 }

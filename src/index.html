@@ -29,21 +29,17 @@
                 </div>
             </div>
             <div class="search__header-signin">
-              <nav class="list">
-                <ul>
-                  <li class="list__image"><a href="#"></a>
-                    <ul class="list__menu">
-                      <div class="search__header-signin search__header-signin_border">
-                        <p class="news news_whiteTeame-margin">NewsExplorer</p> 
-                        <button class="menu__close menu__close_list"></button>
-                      </div>
-                      <li><a href="./index.html">Главная</a></li>
-                      <li><a href="saved-news.html">Сохранённые статьи</a></li>
-                      <button class="menu__authorization menu__authorization_black-margin">Грета [→</button>
-                    </ul>
+              <div class="list__image">
+                <ul class="list__menu">
+                  <li class="menu__flex">
+                    <p class="news news_whiteColor">NewsExplorer</p> 
+                    <button class="menu__close menu__close_list"></button>
                   </li>
+                  <li><a class="li__margin" href="./index.html">Главная</a></li>
+                  <li><a class="li__margin" href="saved-news.html">Сохранённые статьи</a></li>
+                  <li class="menu__margin"><button class="menu__authorization menu__authorization_black-margin">Грета [→</button></li>
                 </ul>
-              </nav>
+              </div>
             </div>
         </div>
         <div class="search__body">
@@ -56,7 +52,7 @@
         </div>
     </div>
     <div class="about">
-    <img class="about__image" src="<%=require('./blocks/about/images/image-03.png')%>">
+    <img class="about__image" src="<%=require('./blocks/about/images/image-03.png')%>" alt="image-author">
     <div class="about__text">
       <h3 class="about__author">Об авторе</h3>
       <div class="about__paragraph">
@@ -74,7 +70,7 @@
             <p class="massageSave__paragraph">Войдите, чтобы сохранять статьи</p>
           </div>
           <button class="buttomSave">
-            <img class="buttomSave__icon" src="<%=require('./blocks/group/__cards/card/__image/images/Rectangle1.png')%>">
+            <img class="buttomSave__icon" src="<%=require('./blocks/group/__cards/card/__image/images/Rectangle1.png')%>" alt="imageCard">
           </button>
         </div>
         <p class="card__data">2 августа, 2019</p>
@@ -90,7 +86,7 @@
             <p class="massageSave__paragraph">Войдите, чтобы сохранять статьи</p>
           </div>
           <button class="buttomSave">
-            <img class="buttomSave__icon" src="<%=require('./blocks/group/__cards/card/__image/images/Rectangle1.png')%>">
+            <img class="buttomSave__icon" src="<%=require('./blocks/group/__cards/card/__image/images/Rectangle1.png')%>" alt="imageCard">
           </button>
         </div>
         <p class="card__data">2 августа, 2019</p>
@@ -106,7 +102,7 @@
             <p class="massageSave__paragraph">Войдите, чтобы сохранять статьи</p>
           </div>
           <button class="buttomSave">
-            <img class="buttomSave__icon buttomSave__icon_saved" src="<%=require('./blocks/group/__cards/card/__image/images/Rectangle1.png')%>">
+            <img class="buttomSave__icon buttomSave__icon_saved" src="<%=require('./blocks/group/__cards/card/__image/images/Rectangle1.png')%>" alt="imageCard">
           </button>
         </div>
         <p class="card__data">2 августа, 2019</p>
@@ -117,16 +113,14 @@
         <p class="card__source">Лента.ру</p>
       </div>
     </div>
-    <button class="button-cards">
-      <p class="button-cards__text">Показать ещё</p>
-    </button>
+    <button class="button-cards">Показать ещё</button>
   </div>
   <div class="preloader">
     <div class="circle-preloader circle-preloader_margin"></div>
     <p class="preloader__news">Идет поиск новостей...</p>
   </div>
   <div class="not-found">
-    <img class="not-found__image" src="<%=require('./blocks/not-found/images/not-found_v1.png')%>">
+    <img class="not-found__image" src="<%=require('./blocks/not-found/images/not-found_v1.png')%>" alt="notFoundImage">
     <h4 class="not-found__header">Ничего не найдено</h4>
     <p class="not-found__paragraph">К сожалению по вашему запросу ничего не найдено.</p>
   </div>
@@ -137,10 +131,15 @@
       <a class="footer__column-text footer__column-text_link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
       <a class="footer__column-icone footer__column-icone_github" href="https://github.com/abramson21"></a>
       <a class="footer__column-icone footer__column-icone_facebook" href="https://facebook.com"></a>
+    </div>
   </footer>
   <div class="popup">
-    <div class="popup__content">
-      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close">
+    <div class="popup__block">
+      <p class="news news_popup">NewsExplorer</p>
+      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close-block" alt="imageClosePopup">
+    </div>
+    <div class="popup__content popup__content_reg">
+      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close" alt="imageClosePopup">
       <h3 class="popup__title">Вход</h3>
       <form class="popup__form" name="newForm">
         <p class="determinant">Email</p>
@@ -149,14 +148,18 @@
         <p class="determinant">Пароль</p>
         <input type="password" name="link" required class="popup__input popup__input_type_link-url" placeholder="Введите пароль">
         <p class="chek__open chek__open_second"></p>
-        <button type class="button popup__button">Войти</button>
-        <button class="button button_registration" src="#"><span class="registration__span">или </span>Зарегистрироваться</button>
+        <button class="button popup__button">Войти</button>
+        <button class="button button_registration"><span class="registration__span">или </span><span> </span> Зарегистрироваться</button>
       </form>
     </div>
   </div>
   <div class="popup-registration">
-    <div class="popup__content">
-      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close">
+    <div class="popup__block">
+      <p class="news news_popup">NewsExplorer</p>
+      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close-block" alt="imageClosePopup">
+    </div>
+    <div class="popup__content popup__content_reg">
+      <img src="<%=require('./blocks/popup/images/back.png')%>" alt="imageClosePopup" class="popup__close">
       <h3 class="popup__title">Регистрация</h3>
       <form class="popup__form" name="newForm">
         <p class="determinant">Email</p>
@@ -169,16 +172,17 @@
         <input type="text" name="name" maxlength="30" required class="popup__input popup__input_type_name" placeholder="Введите своё имя">
         <p class="chek__open chek__open_third"></p>
         <p class="chek__open chek__open_fourth">Такой пользователь уже есть</p>
-        <button type class="button popup__button">Зарегистрироваться</button>
-        <button class="button button_registration" src="#"><span class="registration__span">или </span>Войти</button>
+        <button class="button popup__button">Зарегистрироваться</button>
+        <button class="button button_registration"><span class="registration__span">или </span>Войти</button>
       </form>
     </div>
   </div>
   <div class="popup-signup">
+    <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close-block popup__close-block_signin" alt="imageClosePopup">
     <div class="popup__content">
-      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close">
+      <img src="<%=require('./blocks/popup/images/back.png')%>" class="popup__close" alt="imageClosePopup">
       <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
-      <button class="button button_signup" src="#">Выполнить вход</button>
+      <button class="button button_signup">Выполнить вход</button>
     </div>
   </div>
   <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>

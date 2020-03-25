@@ -7,19 +7,31 @@
   <title>NewsExplorer saved</title>
 </head>
 <body>
-  <div class="search search_background">
-    <div class="search__header">
+  <div class="search">
+    <div class="search__header search__header_black">
         <p class="news news_blackTeame">NewsExplorer</p>
         <div class="menu">
-            <div class="menu__save menu__save_blackTeame">
-                <a class="main-header main-header_blackTeame" href="index.html">Главная</a>
-                <div class="menu__main menu__main_blackTeame">
-                  <a class="saved saved_blackTeame" href="./saved-news.html">Сохранённые статьи</a>
-                  <div class="link link_blackTeame"></div>
-                </div>
-                <button class="menu__signin menu__signin_blackTeame">Грета [→</button>
+          <div class="menu__save">
+            <div class="menu__main menu__main_whiteTeame">
+                <a class="main-header main-header_black" href="index.html">Главная</a>
             </div>
-      </div>
+            <a class="saved saved_black" href="./saved-news.html">Сохранённые статьи</a>
+            <button class="menu__signin menu__signin_black">Грета [→</button>
+        </div>
+        </div>
+        <div class="search__header-signin">
+          <div class="list__imageBlack">
+            <ul class="list__menu">
+              <li class="menu__flex">
+                <p class="news news_whiteColor">NewsExplorer</p> 
+                <button class="menu__close menu__close_list"></button>
+              </li>
+              <li><a class="li__margin" href="./index.html">Главная</a></li>
+              <li><a class="li__margin" href="saved-news.html">Сохранённые статьи</a></li>
+              <li class="menu__margin"><button class="menu__authorization menu__authorization_black-margin">Грета [→</button></li>
+            </ul>
+          </div>
+        </div>
     </div>
     <div class="save">
       <p class="save__paragraph ">Сохранённые статьи</p>
@@ -28,86 +40,85 @@
          <span class="text-weight">Природа, Тайга</span> и
          <span class="text-weight">2 другим</span></p>
     </div>
-    <div class="group__cards group__cards_margin">
-      <div class="card card_margin">
-        <div class="card__image card__image_flower">
-          <div class="title-search">
-            <p class="title-search_text">Природа</p>
+  </div>
+    <div class="group group_padding">
+      <div class="group__cards group__cards_margin">
+        <div class="card card_margin ">
+          <div class="card__image card__image_park">
+            <div class="massageAnswer">
+              <p class="massageAnswer__paragraph">Природа</p>
+            </div>
+            <button class="buttomDelete">
+              <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>" alt="buttom-delete">
+            </button>
           </div>
-          <button class="buttomDelete">
-            <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>">
-          </button>
+          <p class="card__data">2 августа, 2019</p>
+          <h4 class="card__header">Национальное достояние – парки</h4>
+          <p class="card__paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
+             начала складываться система национальных парков – охраняемых территорий,
+             где и сегодня каждый может приобщиться к природе.</p>
+          <p class="card__source">Лента.ру</p>
         </div>
-        <p class="card__data">2 августа, 2019</p>
-        <h4 class="card__header">Национальное достояние – парки</h4>
-        <p class="card__paragraph">В 2016 году Америка отмечала важный юбилей:
-          сто лет назад здесь начала складываться система национальных парков –
-          охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-        <p class="card__source">Лента.ру</p>
-      </div>
-      <div class="card card_margin">
-        <div class="card__image card__image_forest">
-          <div class="title-search">
-            <p class="title-search_text">Природа</p>
+        <div class="card card_margin ">
+          <div class="card__image card__image_park">
+            <div class="massageAnswer">
+              <p class="massageAnswer__paragraph">Природа</p>
+            </div>
+            <button class="buttomDelete">
+              <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>" alt="buttom-delete">
+            </button>
           </div>
-          <button class="buttomDelete">
-            <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>">
-          </button>
+          <p class="card__data">2 августа, 2019</p>
+          <h4 class="card__header">Национальное достояние – парки</h4>
+          <p class="card__paragraph">В 2016 году Америка отмечала
+            важный юбилей: сто лет назад здесь начала складыв...</p>
+          <p class="card__source">Медуза</p>
         </div>
-        <p class="card__data">2 августа, 2019</p>
-        <h4 class="card__header">Лесные огоньки: история одной фотографии</h4>
-        <p class="card__paragraph">Фотограф отвлеклась от освещения суровой политической
-          реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
-          из местных чудес природы.</p>
-        <p class="card__source">Медуза</p>
-      </div>
-      <div class="card card_margin">
-        <div class="card__image card__image_flower2">
-          <div class="title-search">
-            <p class="title-search_text">Природа</p>
+        <div class="card card_margin ">
+          <div class="card__image card__image_park">
+            <div class="massageAnswer">
+              <p class="massageAnswer__paragraph">Природа</p>
+            </div>
+            <button class="buttomDelete">
+              <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>" alt="buttom-delete">
+            </button>
           </div>
-          <button class="buttomDelete">
-            <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>">
-          </button>
+          <p class="card__data">2 августа, 2019</p>
+          <h4 class="card__header">Национальное достояние – парки</h4>
+          <p class="card__paragraph">В 2016 году Америка отмечала 
+            важный юбилей: сто лет назад здесь начала складыв...</p>
+          <p class="card__source">Лента.ру</p>
         </div>
-        <p class="card__data">2 августа, 2019</p>
-        <h4 class="card__header">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-        <p class="card__paragraph">Знаменитый фотограф снимает первозданные леса России,
-          чтобы рассказать о необходимости их сохранения. 
-          В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-        <p class="card__source">Лента.ру</p>
-      </div>
-      <div class="card card_margin">
-        <div class="card__image card__image_flower">
-          <div class="title-search">
-            <p class="title-search_text">Природа</p>
+        <div class="card card_margin ">
+          <div class="card__image card__image_park">
+            <div class="massageAnswer">
+              <p class="massageAnswer__paragraph">Природа</p>
+            </div>
+            <button class="buttomDelete">
+              <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>" alt="buttom-delete">
+            </button>
           </div>
-          <button class="buttomDelete">
-            <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>">
-          </button>
+          <p class="card__data">2 августа, 2019</p>
+          <h4 class="card__header">Национальное достояние – парки</h4>
+          <p class="card__paragraph">В 2016 году Америка 
+            отмечала важный юбилей: сто лет назад здесь начала складыв...</p>
+          <p class="card__source">Лента.ру</p>
         </div>
-        <p class="card__data">2 августа, 2019</p>
-        <h4 class="card__header">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-        <p class="card__paragraph">Знаменитый фотограф снимает первозданные леса России,
-          чтобы рассказать о необходимости их сохранения. 
-          В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-        <p class="card__source">Лента.ру</p>
-      </div>
-      <div class="card card_margin">
-        <div class="card__image card__image_forest">
-          <div class="title-search">
-            <p class="title-search_text">Природа</p>
+        <div class="card card_margin ">
+          <div class="card__image card__image_park">
+            <div class="massageAnswer">
+              <p class="massageAnswer__paragraph">Природа</p>
+            </div>
+            <button class="buttomDelete">
+              <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>" alt="buttom-delete">
+            </button>
           </div>
-          <button class="buttomDelete">
-            <img class="buttomDelete__icon" src="<%=require('./blocks/save/images/trash.png')%>">
-          </button>
+          <p class="card__data">2 августа, 2019</p>
+          <h4 class="card__header">Национальное достояние – парки</h4>
+          <p class="card__paragraph">В 2016 году Америка 
+            отмечала важный юбилей: сто лет назад здесь начала складыв...</p>
+          <p class="card__source">Лента.ру</p>
         </div>
-        <p class="card__data">2 августа, 2019</p>
-        <h4 class="card__header">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-        <p class="card__paragraph">Знаменитый фотограф снимает первозданные леса России,
-          чтобы рассказать о необходимости их сохранения. 
-          В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-        <p class="card__source">Лента.ру</p>
       </div>
     </div>
     <footer class="footer">
@@ -117,6 +128,7 @@
         <a class="footer__column-text footer__column-text_link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
         <a class="footer__column-icone footer__column-icone_github" href="https://github.com/abramson21"></a>
         <a class="footer__column-icone footer__column-icone_facebook" href="https://facebook.com"></a>
+      </div>
     </footer>
     <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>    
 </body>
