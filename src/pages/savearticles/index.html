@@ -5,11 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>News Explorer</title>
-  <meta name="description" content="This project for interest news search">
-  <meta name="author" content="Petr Pridanov">
-  <meta name="keywords" content="Поиск новостей, новости, новости сейчас">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.savearticles.css %>">
-  <link rel="shortcut icon" href="<%=require('../../img/favicon.png') %>" type="image/png">
 </head>
 <body>
   <div class="page">
@@ -33,15 +29,25 @@
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__info">&copy; 2020 Supersite, Powered by News API</p>
-      <div class="footer__column">
-        <a class="footer__column-text footer__column-text_header" href="index.html">Главная</a>
-        <a class="footer__column-text footer__column-text_link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
-        <a class="footer__column-icone footer__column-icone_github" href="https://github.com/abramson21"></a>
-        <a class="footer__column-icone footer__column-icone_facebook" href="https://facebook.com"></a>
+      <div class="container">
+        <div class="footer__container">
+          <p class="footer__copyrigth">© 2020 Supersite, Powered by News API</p>
+          <div class="footer__links-container">
+            <ul class="footer__menu">
+              <li class="footer__menu-item"><a href="./" class="footer__link">Главная</a></li>
+              <li class="footer__menu-item"><a href="./savearticles" class="footer__link">Яндекс.Практикум</a></li>
+            </ul>
+            <div class="footer__icons-container">
+              <a class="footer__link" href="https://github.com" target="_blank"><img class="footer__icon" src="<%=require('../../img/github.svg') %>" alt="github icon"></a>
+              <a class="footer__link" href="https://facebook.com" target="_blank"><img class="footer__icon" src="<%=require('../../img/facebook.svg') %>" alt="facebook icon"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </div>
+
+  <!-- Шапка заллогированного пользователя -->
   <template id="header-islogged-tpl">
     <div class="overlay"></div>
     <div class="header__overlay header__overlay_black-theme"></div>
@@ -59,6 +65,7 @@
       </ul>
     </nav>
   </template>
+    <!-- Шапка для незалогированного пользователя -->
     <template id="header-notlogged-tpl">
       <div class="overlay"></div>
       <div class="header__overlay"></div>
@@ -74,4 +81,5 @@
     </template>
   <script src="<%= htmlWebpackPlugin.files.chunks.savearticles.entry %>"></script>
 </body>
+
 </html>

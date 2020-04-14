@@ -5,6 +5,7 @@
   top: -26px;
   right: -26px;
   cursor: pointer;
+  background-image: url(../../../img/close-mid.svg);
 }
 
 @media screen and (max-width: 320px) {

@@ -145,14 +145,12 @@ export default class Validator {
     event.preventDefault();
     this._checkForm(inputs);
     const formName = form.dataset.form;
-    console.log(formName);
     const serverErrorSpan = form.querySelector('.error__server-error');
     if (formName === 'login') {
       connection.signinUser(inputs[0].value, inputs[1].value)
         .then((res) => (res.ok ? res.json() : this.setServerError(res)))
         .then((res) => {
           localStorage.setItem('token', res.jwt);
-          console.log(res);
           new Popup('#signin-tpl').render();
           new Header().clearContent();
           new Header().render();
@@ -162,8 +160,6 @@ export default class Validator {
             serverErrorSpan.textContent = SERVER_INTERNAL_ERROR;
             return;
           }
-          console.log('ошибка');
-
           serverErrorSpan.textContent = error.message;
         });
     } else if (formName === 'signup') {
