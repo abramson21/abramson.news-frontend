@@ -1,0 +1,12 @@
+.nav__logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  border-radius: 30px;
+  padding: 0 10px;
+}
+
+.nav__logout-container_black-theme {
+  border: 1px solid #000;
+}

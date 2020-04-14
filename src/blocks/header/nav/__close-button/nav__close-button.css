@@ -1,0 +1,12 @@
+.nav__close-button {
+  display: none;
+  background-image: url(../../../../img/close-mid.svg);
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav__close-button_black-theme {
+  background-image: url(../../../../img/close-mid_black-theme.svg);
+}

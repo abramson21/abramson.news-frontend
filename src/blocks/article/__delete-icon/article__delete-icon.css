@@ -1,0 +1,25 @@
+.article__delete-icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 40px;
+  height: 40px;
+  background-image: url('../../../img/trash.svg');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.article__delete-icon:hover {
+  background-image: url('../../../img/trash_hover.svg');
+}
+
+@media screen and (max-width: 1024px) {
+  .article__delete-icon {
+    right: 8px;
+    top: 8px;
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../vendor/fonts/fonts.css";
+@import "../../blocks/page.css";
+@import "../../blocks/header/header.css";
+@import "../../blocks/main-text/main-text.css";
+@import "../../blocks/saved-articles/saved-articles.css";
+@import "../../blocks/article/article.css";
+@import "../../blocks/articles-container/articles-container.css";
+@import "../../blocks/container/container.css";
+@import "../../blocks/footer/footer.css";

@@ -1,0 +1,15 @@
+.articles__title {
+  margin-top: 83px;
+}
+
+@media screen and (max-width: 940px) {
+  .articles__title {
+    margin: 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .articles__title {
+    width: 240px;
+  }
+}

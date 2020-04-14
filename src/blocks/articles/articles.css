@@ -1,0 +1,10 @@
+@import url('./__title/articles__title.css');
+@import url('./__next-buton/articles__next-button.css');
+@import url('./__searching/articles__searching.css');
+@import url('./__not-found-container/articles__not-found-container.css');
+@import url('./__results/articles__results.css');
+
+.articles {
+  display: flex;
+  background: #F5F6F7;
+}

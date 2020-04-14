@@ -1,0 +1,19 @@
+@import url('./__link/nav__link.css');
+@import url('./__login/nav__login.css');
+@import url('./__link/__login-button/nav__login-button.css');
+@import url('./__link/__logout-button/nav__logout-button.css');
+
+.nav__menu-item {
+  margin-top: 30px;
+  margin-right: 34px;
+}
+
+.nav__menu-item_login {
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .nav__menu-item {
+    margin-right: 8px;
+  }
+}

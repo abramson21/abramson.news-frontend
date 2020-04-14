@@ -1,0 +1,12 @@
+@import url(./__keys-text/main-text__keys-text.css);
+@import url(./__subtitle/main-text__subtitle.css);
+@import url(./__text-container/main-text__text-container.css);
+@import url(./__title/main-text__title.css);
+@import url(./__word-key/main-text__word-key.css);
+
+.main-text {
+  display: flex;
+  padding: 40px 0 55px;
+  background-color: white;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.about__text-container {
+  width: 49%;
+  margin: 53px 0 0 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__text-container {
+    width: 100%;
+    margin: 0 0 0 32px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about__text-container {
+    width: auto;
+    margin: 0;
+  }
+}

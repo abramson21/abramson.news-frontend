@@ -1,0 +1,18 @@
+.nav__burger-button {
+  display: none;
+  background-image: url(../../../../img/menu.svg);
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav__burger-button_black-theme {
+  background-image: url(../../../../img/menu_black-theme.svg);
+}
+
+@media screen and (max-width: 640px) {
+  .nav__burger-button {
+    display: flex;
+  }
+}

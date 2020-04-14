@@ -1,0 +1,20 @@
+@import url('./__image-container/article__image-container.css');
+@import url('./__image/article__image.css');
+@import url('./__save-icon/article__save-icon.css');
+@import url('./__date/article__date.css');
+@import url('./__name/article__name.css');
+@import url('./__description/article__description.css');
+@import url('./__link/article__link.css');
+@import url('./__text-container/article__text-container.css');
+@import url('./__signin-msg/article__signin-msg.css');
+@import url('./__delete-msg/article__delete-msg.css');
+@import url('./__delete-icon/article__delete-icon.css');
+@import url('./__content-name/article__content-name.css');
+
+.article {
+  max-width: 100%;
+  position: relative;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+}

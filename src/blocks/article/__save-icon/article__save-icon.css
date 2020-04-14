@@ -1,0 +1,27 @@
+
+
+.article__save-icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 40px;
+  height: 40px;
+  background-image: url('../../../img/save-icon.svg');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.article__save-icon_active {
+  background-image: url('../../../img/save-icon_active.svg');
+}
+
+@media screen and (max-width: 1024px) {
+  .article__save-icon {
+    right: 8px;
+    top: 8px;
+  }
+}

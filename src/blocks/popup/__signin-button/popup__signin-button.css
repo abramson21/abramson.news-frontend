@@ -1,0 +1,11 @@
+.popup__signin-button {
+  color: #2F71E5;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.popup__signin-button_top {
+  display: block;
+  margin-top: 10px;
+}

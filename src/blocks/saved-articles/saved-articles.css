@@ -1,0 +1,7 @@
+@import url(./__card-container/saved-articles__card-container.css);
+
+.saved-articles {
+  display: flex;
+  background: #f5f6f7;
+  flex-direction: column;
+}

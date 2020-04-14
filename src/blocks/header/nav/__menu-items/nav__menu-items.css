@@ -1,0 +1,23 @@
+@import url('./__menu-item/nav__menu-item.css');
+
+.nav__menu-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .nav__menu-items {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nav__menu-items {
+    width: 90%;
+  }
+}

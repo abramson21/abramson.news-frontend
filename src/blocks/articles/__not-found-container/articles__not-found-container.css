@@ -1,0 +1,12 @@
+@import url('./__not-found-title/articles__not-found-title.css');
+@import url('./__not-found-text/articles__not-found-text.css');
+@import url('./__not-found-image/articles__not-found-image.css');
+
+.articles__not-found-container {
+  width: 100%;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

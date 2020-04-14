@@ -1,0 +1,32 @@
+.articles__next-button {
+  margin: 64px 0 80px;
+  width: 23%;
+  height: 65px;
+  align-self: center;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+}
+
+.articles__next-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+  .articles__next-button {
+    margin: 32px 0 32px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .articles__next-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.articles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, auto));
+  grid-gap: 16px 16px;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .articles-container {
+    grid-template-columns: repeat(auto-fill,minmax(250px, auto));
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .articles-container {
+    grid-template-columns: repeat(auto-fill,minmax(200px, auto));
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .articles-container {
+    grid-template-columns: repeat(auto-fill,minmax(250px, auto));
+  }
+}
