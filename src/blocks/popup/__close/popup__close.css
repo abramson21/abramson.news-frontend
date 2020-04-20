@@ -1,5 +1,4 @@
 .popup__close {
-<<<<<<< HEAD
     position: absolute;
     top: -40px;
     right: -40px;
@@ -13,7 +12,6 @@
     background-repeat: no-repeat;
 
     cursor: pointer;
-=======
   width: 26px;
   height: 26px;
   position: absolute;
@@ -21,7 +19,6 @@
   right: -26px;
   cursor: pointer;
   background-image: url(../../../img/close-mid.svg);
->>>>>>> f402cc727526e326507586f2b3571f3434aebc0d
 }
 
 @media screen and (max-width: 1440px) {
