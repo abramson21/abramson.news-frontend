@@ -77,12 +77,20 @@
         </div>
       </section>
     <footer class="footer">
-      <p class="footer__info">&copy; 2020 Supersite, Powered by News API</p>
-      <div class="footer__column">
-        <a class="footer__column-text footer__column-text_header" href="index.html">Главная</a>
-        <a class="footer__column-text footer__column-text_link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
-        <a class="footer__column-icone footer__column-icone_github" href="https://github.com/abramson21"></a>
-        <a class="footer__column-icone footer__column-icone_facebook" href="https://facebook.com"></a>
+      <div class="container">
+        <div class="footer__container">
+          <p class="footer__copyrigth">© 2020 Supersite, Powered by News API</p>
+          <div class="footer__links-container">
+            <ul class="footer__menu">
+              <li class="footer__menu-item"><a href="./index.html" class="footer__link">Главная</a></li>
+              <li class="footer__menu-item"><a href="https://praktikum.yandex.ru" target="_blank" class="footer__link">Яндекс.Практикум</a></li>
+            </ul>
+            <div class="footer__icons-container">
+              <a class="footer__link" href="https://github.com" target="_blank"><img class="footer__icon" src="<%=require('./img/github.svg') %>" alt="github icon"></a>
+              <a class="footer__link" href="https://facebook.com" target="_blank"><img class="footer__icon" src="<%=require('./img/facebook.svg') %>" alt="facebook icon"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
     <template id="login-popup">
@@ -142,6 +150,144 @@
       <button class="register-success-popup__login page__text-button">Выполнить вход</button>
     </template>
   </div>
+<<<<<<< HEAD
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>
+=======
+
+  <!-- Попап регистрации -->
+  <template id="signup-tpl">
+    <div class="popup popup__signup" id="signup">
+      <div class="popup__content">
+        <img src="<%=require('./img/close-mid.svg')%>" alt="" class="popup__close">
+        <h3 class="popup__title">Вход</h3>
+        <form class="form form__signup" novalidate data-form="signup" name="signup">
+          <div class="form__input-container">
+            <span class="form__input-name">Email</span>
+            <input type="text" required name="email" class="form__input form__input_type_email" placeholder="Введите почту">
+            <span class="error-message error__email">ERROR</span>
+          </div>
+          <div class="form__input-container">
+            <span class="form__input-name">Пароль</span>
+            <input required name='password' type="password" class='form__input form__input_type_password' placeholder="Введите пароль">
+            <span class="error-message error__password"></span>
+          </div>
+          <div class="form__input-container">
+            <span class="form__input-name">Имя</span>
+            <input type='text' required name='name' class='form__input form__input_type_name' placeholder="Введите имя">
+            <span class="error-message error__name"></span>
+          </div>
+          <span class="error-message error__server-error"></span>
+          <button type="submit" data-target='signup' name="button" class="button form__button form__button_save">Зарегистрироваться</button>
+        </form>
+        <p class="popup__signup-text">или <button class="popup__signin-button" data-target="login">Войти</button></p>
+      </div>
+    </div>
+  </template>
+
+  <!-- Попап входа -->
+  <template id="signin-tpl">
+    <div class="popup popup__login" id="login">
+      <div class="popup__content">
+        <img src="<%=require('./img/close-mid.svg')%>" alt="" class="popup__close">
+        <h3 class="popup__title">Вход</h3>
+        <form class="form form__login" novalidate data-form="login" name="login">
+          <div class="form__input-container">
+            <span class="form__input-name">Email</span>
+            <input type="text" required name="email" class="form__input form__input_type_email" placeholder="Введите почту">
+            <span class="error-message error__email">ERROR</span>
+          </div>
+          <div class="form__input-container">
+            <span class="form__input-name">Пароль</span>
+            <input type='password' required name='password' class='form__input form__input_type_password' placeholder="Введите пароль">
+            <span class="error-message error__password"></span>
+          </div>
+          <span class="error-message error__server-error"></span>
+          <button type="submit" data-target='login' name="button" class="button form__button form__button_save">Войти</button>
+        </form>
+        <p class="popup__signup-text">или <button class="popup__signup-button" data-target="signup">Зарегистрироваться</button></p>
+      </div>
+    </div>
+  </template>
+
+  <!-- Попап с сообщением об успешной регистрации -->
+  <template id="thanks-tpl">
+    <div class="popup popup__success" id="success">
+      <div class="popup__content">
+        <img src="<%=require('./img/close-mid.svg')%>" alt="" class="popup__close">
+        <h3 class="popup__title">Пользователь успешно зарегистрирован!</h3>
+        <button class="popup__signin-button popup__signin-button_top">Выполнить вход</button>
+      </div>
+    </div>
+  </template>
+
+  <!-- Шапка заллогированного пользователя -->
+  <template id="header-islogged-tpl">
+    <div class="overlay"></div>
+    <div class="header__overlay"></div>
+    <nav class="nav">
+      <a href="/" class="nav__logo">NewsExplorer</a>
+      <button class="nav__burger-button"></button>
+      <button class="nav__close-button"></button>
+      <ul class="nav__menu-items">
+        <li class="nav__menu-item"><a href="/" class="nav__link nav__link_active">Главная</a></li>
+        <li class="nav__menu-item"><a href="/savearticles" class="nav__link">Сохраненные статьи</a></li>
+        <li class="nav__menu-item nav__menu-item_login"><div class="nav__logout-container"><button class="nav__logout-button"></button><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M10 6L6 6L6 18H10V20H6C4.89543 20 4 19.1046 4 18V6C4 4.89543 4.89543 4 6 4H10V6ZM17.5856 13L13.2927 17.1339L14.707 18.4958L21.4141 12.0371L14.707 5.57837L13.2927 6.9402L17.5856 11.0741H8V13H17.5856Z" fill="#fff"/>
+          </svg></div>
+        </li>
+      </ul>
+    </nav>
+  </template>
+
+  <!-- Шапка для незалогированного пользователя -->
+  <template id="header-notlogged-tpl">
+    <div class="overlay"></div>
+    <div class="header__overlay"></div>
+    <nav class="nav">
+      <a href="/" class="nav__logo">NewsExplorer</a>
+      <div class="nav__burger-button"></div>
+      <div class="nav__close-button"></div>
+      <ul class="nav__menu-items">
+        <li class="nav__menu-item"><a href="./index.html" class="nav__link nav__link_active">Главная</a></li>
+        <li class="nav__menu-item nav__menu-item_login"><button class="nav__login-button" data-target='login'>Авторизоваться</button>
+      </ul>
+    </nav>
+  </template>
+
+  <!-- Здесь загружается прелоадер -->
+  <template id="results-is-loading">
+    <div class="articles__results">
+      <div class="articles__searching">
+        <i class="circle-preloader"></i>
+        <span class="circle-preloader__text">Идет поиск новостей...</span>
+      </div>
+    </div>
+  </template>
+
+  <!-- Здесь загружается если ничего не найдено -->
+  <template id="results-not-found">
+    <div class="articles__results">
+      <div class="articles__not-found-container">
+        <img class="articles__not-found-image" src="<%=require('./img/not-found_v1.svg') %>">
+        <h3 class="articles__not-found-title">Ничего не найдено</h3>
+        <p class="articles__not-found-text">К сожалению по вашему запросу ничего не найдено.</p>
+      </div>
+    </div>
+  </template>
+
+  <!-- Здесь выводятся результаты -->
+  <template id="results-found">
+    <div class="articles__results">
+      <h3 class="title articles__title">Результаты поиска</h3>
+      <div class="articles-container">
+      </div>
+      <button class="articles__next-button">Показать еще</button>
+    </div>
+  </template>
+  <script src="<%=htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html>
+>>>>>>> f402cc727526e326507586f2b3571f3434aebc0d
