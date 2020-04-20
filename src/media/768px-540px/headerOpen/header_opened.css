@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) and (min-width: 320px) {
+        
+    .header_opened{
+        display: none;
+    }
+
+    .news_list {
+        background-image: url('../../../images/burger.svg');
+    }
+
+    .search__header {
+        display: inline;
+
+    }
+
+    .search {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    
+    .search__content {
+        width: 90%;
+    }
+
+    .search__header {
+        box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2)
+    }
+
+    .search_link {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 16px 0 16px 16px;
+    }
+
+    .news_listOpen {
+        display: block;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        margin: 16px 16px;
+    }
+
+    .search__header_pozition {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .search__content {
+        margin-top: 15px;
+    }
+
+    .header__menu {
+        display: inline;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        margin: 16px 0 16px;
+    }
+
+    .header_opened-pozition {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-right: 149px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .search__header {
+        display: none;
+    }
+}
