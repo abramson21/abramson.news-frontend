@@ -1,3 +1,3 @@
 # abramson.news-frontend
-abramson.news-frontend
-Diplom yandex
+Ссылка на сайт https://abramson-news.ml/
+ССылка по IP https://abramson-news.ml/
