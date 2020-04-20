@@ -1,6 +1,5 @@
 {
   "name": "abramson.news-frontend",
-<<<<<<< HEAD
   "homepage": "https://github.com/abramson21/abramson.news-frontend/",
   "version": "0.0.0",
   "main": "index.js",
@@ -45,8 +44,7 @@
   "bugs": {
     "url": "https://github.com/abramson21/abramson.news-frontend/issues"
   },
-  "description": "Diplom Yandex.Practicum"
-=======
+  "description": "Diplom Yandex.Practicum",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -95,5 +93,4 @@
     "core-js": "^3.4.1",
     "path": "^0.12.7"
   }
->>>>>>> f402cc727526e326507586f2b3571f3434aebc0d
 }
