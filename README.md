@@ -1,3 +1,4 @@
-# abramson.news-frontend
-Ссылка на сайт https://abramson-news.ml/
-ССылка по IP https://abramson-news.ml/
+# Поиск новостей
+
+## https://abramson-news.ml/
+## IP https://abramson-news.ml/
